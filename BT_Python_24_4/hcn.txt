@@ -1,0 +1,2 @@
+Ten: A	dai: 4	Rong: 5	Chu vi: 18	Dien tich: 20	
+Ten: B	dai: 6	Rong: 8	Chu vi: 28	Dien tich: 48	
