@@ -1,0 +1,8 @@
+mymath: test_mymath.o libmymath.a
+	gcc -o mymath test_mymath.o libmymath.a
+test_mymath.o: test_mymath.c
+	gcc -c test_mymath.c
+libmymath.a: libmymath.o
+	ar crv libmymath.a libmymath.o
+libmymath.o: libmymath.c
+	gcc -c libmymath.c
